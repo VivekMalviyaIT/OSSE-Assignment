@@ -27,6 +27,7 @@ public class MainClass {
 	}
 
 
+
 	Private void NumberCheck(String[] args)   
 	{  
 	//number to be checked  
@@ -46,5 +47,19 @@ public class MainClass {
 	{  
 	System.out.println("The number is zero.");  
 	}  
+=======
+	
+	private void reverse of a number()
+	{
+		int number = 987654, reverse = 0;
+		while(number != 0)
+		{
+			int remainder = number % 10;
+			reverse = reverse * 10 + remainder;
+			number = number/10;
+		}
+		System.out.println("The reverse of the given number is: " + reverse);
+	}
+
 	
 }
