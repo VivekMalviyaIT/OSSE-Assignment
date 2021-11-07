@@ -10,4 +10,10 @@ public class ClassD {
 
 	}
 
+//Print method by @Vivek Malviya
+Private void printName()
+{
+	System.out.println("Code added by Vivek malviya for BITS OOSE assignment");
+}
+	
 }
